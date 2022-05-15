@@ -1,0 +1,36 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+
+
+
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: Outfit;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#outer_card_id{
+    padding: 7%;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    left: 50%;
+    top: 50%;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    max-width:450px;
+    overflow: hidden;
+
+}
+
+img{
+    height: 300px;
+    margin:auto;
+}
